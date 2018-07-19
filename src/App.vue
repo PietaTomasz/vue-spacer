@@ -1,12 +1,24 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">spacer</router-link> |
-      <router-link to="/about">about</router-link> |
-      <router-link to="/search">search</router-link>
-    </div>
     <router-view />
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<script>
+import Claim from './components/Claim';
+
+export default {
+  
+}
+</script>
+
+
+<style lang="scss">
+  @import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada');
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Montserrat Subrayada', sans-serif;
+  }
+</style>
