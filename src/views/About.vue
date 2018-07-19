@@ -7,7 +7,7 @@
 <script>
 export default {
   name: 'Aboout',
-  };
+};
 </script>
 
 <style lang="scss" scoped>
